@@ -1,2 +1,2 @@
 # Covid19Bot
-Shows information about virus Covid19 in different coutries
+Shows information about virus Covid19 in different countries

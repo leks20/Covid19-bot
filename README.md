@@ -1,2 +1,1 @@
-# Covid19Bot
-Shows information about virus Covid19 in different countries
+## Телеграм-бот, предоставляющий актуальную информацию o заболевших COVID-19 в различных странах

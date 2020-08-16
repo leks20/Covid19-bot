@@ -2,16 +2,14 @@ import os
 
 import COVID19Py
 from dotenv import load_dotenv
-import requests
 import telebot
-from telebot import apihelper, types
+from telebot import types
 
 load_dotenv()
 token = os.getenv('teleram_token')
 
-covid19 = COVID19Py.COVID19()
+covid19 = COVID19Py.COVID19(url="https://cvtapi.nl")
 bot = telebot.TeleBot(token)
-apihelper.proxy = {'https': 'socks5://66.42.43.209:1080'}
 
 
 @bot.message_handler(commands=['start'])
